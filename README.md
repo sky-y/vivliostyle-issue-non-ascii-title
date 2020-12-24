@@ -192,8 +192,6 @@ Last OS error: No such file or directory
 ==> Listing fonts in 'press-ready.pdf'
 ==> No fonts found
 ==> Every font is properly embedded
-yuki at gold-experience in ~/s/s/vivliostyle-issue-non-ascii-title (master|…28)
-$ 
 ```
 
 ## About sample
