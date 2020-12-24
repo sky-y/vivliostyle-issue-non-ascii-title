@@ -1,0 +1,19 @@
+{
+  "@context": "https://readium.org/webpub-manifest/context.jsonld",
+  "metadata": {
+    "@type": "http://schema.org/Book",
+    "title": "科学の不思議",
+    "author": "アンリイ・ファブル（大杉栄、伊藤野枝訳）",
+    "language": "en",
+    "modified": "2020-12-24T13:55:29.359Z"
+  },
+  "links": [],
+  "readingOrder": [
+    {
+      "href": "artifacts/01.html",
+      "type": "text/html",
+      "title": "一　六人"
+    }
+  ],
+  "resources": []
+}

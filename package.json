@@ -1,0 +1,16 @@
+{
+  "name": "sample-book-kagakunofushigi",
+  "description": "sample-book-kagakunofushigi",
+  "version": "0.0.0",
+  "author": "アンリイ・ファブル（大杉栄、伊藤野枝訳） < >",
+  "scripts": {
+    "build": "vivliostyle build",
+    "preview": "vivliostyle preview"
+  },
+  "dependencies": {
+    "@vivliostyle/cli": "next",
+    "@vivliostyle/theme-techbook": "^0.2.0"
+  },
+  "license": "CC0-1.0",
+  "private": true
+}

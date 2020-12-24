@@ -1,0 +1,81 @@
+{
+  "_from": "@vivliostyle/theme-techbook@0.2.0",
+  "_id": "@vivliostyle/theme-techbook@0.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-UzfVSr5BrMGK0SKpc1+J1AL1dh4gJTWgliMlq9ycmCfJD1PYPmNTW3bUxnK/AB4fN9nlfg8XvGeRDJn1wp/0kQ==",
+  "_location": "/@vivliostyle/theme-techbook",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@vivliostyle/theme-techbook@0.2.0",
+    "name": "@vivliostyle/theme-techbook",
+    "escapedName": "@vivliostyle%2ftheme-techbook",
+    "scope": "@vivliostyle",
+    "rawSpec": "0.2.0",
+    "saveSpec": null,
+    "fetchSpec": "0.2.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@vivliostyle/theme-techbook/-/theme-techbook-0.2.0.tgz",
+  "_shasum": "e3914b62e9ef7e871f00043468f4ab2f496a57af",
+  "_spec": "@vivliostyle/theme-techbook@0.2.0",
+  "_where": "/Users/yuki/src/sample-vivliostyle-md/vivliostyle-issue-toc-error",
+  "author": {
+    "name": "Vivliostyle",
+    "email": "mail@vivliostyle.org"
+  },
+  "bugs": {
+    "url": "https://github.com/vivliostyle/themes/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Techbook (技術同人誌) theme",
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "npm-run-all": "^4.1.5",
+    "vivliostyle-theme-scripts": "^0.3.1"
+  },
+  "files": [
+    "*.css",
+    "*.css.map",
+    "scss",
+    "example"
+  ],
+  "gitHead": "b6dd255b3e11e11232d92685cad9b810f43198e2",
+  "homepage": "https://github.com/vivliostyle/themes",
+  "keywords": [
+    "vivliostyle",
+    "vivliostyle-theme"
+  ],
+  "license": "CC0-1.0",
+  "name": "@vivliostyle/theme-techbook",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivliostyle/themes.git",
+    "directory": "packages/@vivliostyle/theme-techbook"
+  },
+  "scripts": {
+    "build": "run-p build:scss",
+    "build:scss": "node-sass scss/app.scss theme.css -r --source-map true --output-style expanded",
+    "dev": "run-p preview watch:scss",
+    "preview": "vivliostyle-theme-scripts preview theme.css --layout example/techbook.md",
+    "watch:scss": "node-sass scss/app.scss theme.css -w -r -q --source-map true --output-style expanded"
+  },
+  "version": "0.2.0",
+  "vivliostyle": {
+    "theme": {
+      "name": "Techbook",
+      "category": "misc",
+      "style": "./theme.css",
+      "topics": [
+        "Techbook"
+      ]
+    }
+  }
+}
