@@ -2,7 +2,7 @@
 
 When `title` on vivliostyle.config.js is non-ASCII characters, press-ready shows error and make empty PDF output.
 
-Note: This could be an Error on [press-ready](https://github.com/vibranthq/press-ready) side.
+Note: This could be an Error on [press-ready](https://github.com/vibranthq/press-ready) or [Create Book](https://github.com/vivliostyle/create-book) side.
 
 - CASE 1: `npx vivliostyle build --press-ready`
   - will produce error: 
