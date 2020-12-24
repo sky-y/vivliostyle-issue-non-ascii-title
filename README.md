@@ -45,7 +45,7 @@ $ npm create book sample-book-kagakunofushigi
 ? choose theme @vivliostyle/theme-techbook - Techbook (技術同人誌) theme
 ```
 
-I renamed the generated directory to `vivlistyle-issue-toc-error`.
+I renamed the generated directory to `vivliostyle-issue-non-ascii-title`.
 
 ## Files
 
